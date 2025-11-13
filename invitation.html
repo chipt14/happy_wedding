@@ -25,6 +25,70 @@
     <link href="./assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="./assets/css/jquery-ui.css" rel="stylesheet">
     <link href="./assets/sass/style.css" rel="stylesheet">
+    <style>
+        .wpo-invitation-body {
+            background: linear-gradient(135deg, rgba(255, 240, 245, 0.9) 0%, rgba(255, 250, 250, 0.9) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 2px solid #d4a574;
+            border-bottom: 2px solid #d4a574;
+        }
+
+        .invitation-body-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .invitation-body-title {
+            font-size: 28px;
+            font-weight: 300;
+            color: #8b4513;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .invitation-body-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #5c3d2e;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .invitation-body-highlight {
+            font-size: 18px;
+            color: #c41e3a;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        .invitation-decorative {
+            margin: 20px 0;
+        }
+
+        .invitation-decorative img {
+            max-width: 60px;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .wpo-invitation-body {
+                padding: 40px 15px;
+            }
+
+            .invitation-body-title {
+                font-size: 22px;
+            }
+
+            .invitation-body-text {
+                font-size: 15px;
+            }
+
+            .invitation-body-highlight {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -42,14 +106,49 @@
             </div>
         </div>
 
-        <header id="header">
+        <section class="wpo-invitation-body">
+            <div class="invitation-body-content">
+                <h3 class="invitation-body-title">Lời Mời Trân Trọng</h3>
+                
+                <div class="invitation-decorative">
+                    <img src="./assets/images/slider/date-shape.png" alt="decoration">
+                </div>
+
+                <p class="invitation-body-text">
+                    Thân mời
+                </p>
+
+                <p class="invitation-body-highlight">
+                    Bạn và người thương
+                </p>
+
+                <p class="invitation-body-text">
+                    cùng tham dự lễ Vu Quy của chúng tôi
+                </p>
+
+                <p class="invitation-body-text" style="margin-top: 30px;">
+                    Sự hiện diện của bạn là niềm vinh hạnh lớn lao của gia đình chúng tôi.<br>
+                    Chúng tôi mong được chia sẻ những khoảnh khắc đáng nhớ này cùng những người mình yêu thương nhất.
+                </p>
+
+                <div class="invitation-decorative" style="margin-top: 30px;">
+                    <img src="./assets/images/slider/date-shape.png" alt="decoration">
+                </div>
+
+                <p class="invitation-body-text" style="margin-top: 25px; font-size: 14px; color: #8b4513;">
+                    Rất mong sự tham dự và chúc phúc của bạn
+                </p>
+            </div>
+        </section>
+
+        <!-- <header id="header">
             <div class="wpo-site-header invitation-header">
                 <ul>
                     <li> <a class="navbar-brand" href=".">Ngọc Ánh & Đình Phú</a></li>
                     <li><a class="back-btn" href="."><i class="ti-back-left"></i></a></li>
                 </ul>
             </div>
-        </header>
+        </header> -->
 
         <section class="wpo-invitation-area section-padding" style="background: url(./assets/images/slider/invitation-bg.jpg) no-repeat center center;  background-size: cover;">
             <div class="container-fluid">
@@ -58,7 +157,7 @@
                         <div class="wpo-invitation-inner">
                             <div class="middle-couple-pic wow zoomIn" data-wow-duration="1000ms">
                                 <div class="middle-couple-pic-inner">
-                                    <img src="./assets/images/couple/3.jpg" alt="">
+                                    <img src="./assets/images/couple/1.jpg" alt="">
                                 </div>
                                 <div class="couple-flower">
                                     <img src="./assets/images/couple/couple-flower.png" alt="">
@@ -79,10 +178,10 @@
                             </div>
                             <div class="wpo-event-text">
                                 <ul>
-                                    <li class="wow fadeInUp" data-wow-duration="1000ms">Thứ 3, 25 tháng 11 năm 2025 <br> 09:00 AM – 12:00 PM</li>
-                                    <li class="wow fadeInUp" data-wow-duration="1200ms">Tại nhà gái. Phường Bình Khê, Quảng Ninh</li>
-                                    <li class="wow fadeInUp" data-wow-duration="1400ms">+1 234-567-8910</li>
-                                    <li class="wow fadeInUp" data-wow-duration="1600ms"> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                    <li class="wow fadeInUp" data-wow-duration="1000ms">Thứ 3, 25 tháng 11 năm 2025 <br> 08:30 AM – 12:00 PM</li>
+                                    <li class="wow fadeInUp" data-wow-duration="1200ms">Tại nhà gái. Ngõ 01, Số nhà 01, <br>Khu Thượng 2, Bình Khê, Quảng Ninh</li>
+                                    <li class="wow fadeInUp" data-wow-duration="1400ms">0374962117</li>
+                                    <li class="wow fadeInUp" data-wow-duration="1600ms"> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d620.4573986662193!2d106.53857008805169!3d21.097301777024647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDA2JzQzLjQiTiAxMDbCsDMxJzM1LjQiRQ!5e1!3m2!1svi!2s!4v1763049632286!5m2!1svi!2s">See
                                             Location</a></li>
                                 </ul>
                             </div>
@@ -128,6 +227,18 @@
     <script src="./assets/js/script.js"></script>
 
     <audio id="bg-audio" src="./assets/audio/music.mp3" loop preload="auto"></audio>
+
+    <script>
+        const highlight = document.querySelector('.invitation-body-highlight');
+        const params = new URLSearchParams(window.location.search);
+        const name = params.get('name');
+        if (name && name.trim() !== '') {
+            const formattedName = name.trim().charAt(0).toUpperCase() + name.trim().slice(1);
+            highlight.textContent = `${formattedName} và người thương`;
+        } else {
+            highlight.textContent = `Bạn và người thương`;
+        }
+        </script>
 
     <script>
     (function(){
