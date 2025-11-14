@@ -227,6 +227,16 @@
     <audio id="bg-audio" src="./assets/audio/music.mp3" loop preload="auto"></audio>
 
     <script>
+        (function() {
+            // Nếu URL chưa có query string
+            if (!window.location.search) {
+                const version = 'v=' + Date.now(); // tạo version tự động
+                window.location.replace(window.location.pathname + '?' + version);
+            }
+        })();
+    </script>
+
+    <script>
         const highlight = document.querySelector('.invitation-body-highlight');
         const params = new URLSearchParams(window.location.search);
         const name = params.get('name');
